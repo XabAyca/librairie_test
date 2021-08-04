@@ -1,0 +1,28 @@
+.search{
+  padding: 10px 15px;
+  color: #454545;
+  width:200px;
+  margin: 20px 0 20px 150px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: inset 1px 1px 4px 1px rgba(0, 0, 0, 0.167);
+  outline: none;
+}
+
+.read, .fav{
+  padding: 5px 15px;
+  margin:10px 50px;
+  border-radius: 10px;
+  border: 2px solid rgb(53, 28, 53);
+  color:rgb(53, 28, 53);
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 600ms;
+  outline: none;
+
+  &:hover{
+    background-color: rgb(53, 28, 53);
+    color: white;
+  }
+}
